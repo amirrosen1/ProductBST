@@ -1,0 +1,37 @@
+# Product Management Using Binary Search Tree (BST)
+
+## Description
+This project implements a product management system using a binary search tree
+ (BST) in C. The BST allows for efficient insertion, deletion, and retrieval
+  of product information based on unique product identifiers.
+
+## Features
+- **Efficient Product Management**: Utilize a BST for quick access to product details.
+- **Product Operations**: Supports adding, removing, and searching for products.
+- **Modular Code Structure**: Separated into multiple C files for better maintainability.
+
+## Files
+- **CMakeLists.txt**: CMake configuration file for building the project.
+- **main.c**: Contains the main function to run the application.
+- **ProductBST.c**: Implementation of the binary search tree operations.
+- **ProductBST.h**: Header file defining the BST interface and data structures.
+
+## How to Build
+1. Ensure you have CMake installed (minimum version 3.16).
+2. Navigate to the project directory.
+3. Run the following commands:
+    ```bash
+    mkdir build
+    cd build
+    cmake ..
+    make
+    ```
+4. The executable will be generated in the `build` directory.
+
+
+## Dependencies
+- **CMake**: Version 3.16 or higher.
+- **C Compiler**: A compiler supporting C11 standard.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
